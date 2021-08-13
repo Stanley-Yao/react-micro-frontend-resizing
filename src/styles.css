@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 3px solid rgb(100, 100, 47);
+}
+
+.container-alpha {
+  display: flex;
+  justify-content: space-around;
+}
+
+.child-app-A {
+  width: 60%;
+  height: 300px;
+  border: 3px solid red;
+}
+
+.container-alpha .child-app-B {
+  width: 20%;
+  height: 500px;
+  border: 3px solid red;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+.container-beta {
+  border: 3px solid brown;
+  display: flex;
+}
+.container-beta .child-app-B {
+  width: 80%;
+  height: 500px;
+  margin: 20px auto;
+  border: 3px solid red;
+}
+
+.container-beta .child-app-C {
+  width: 20%;
+  height: 100px;
+  margin: 20px auto;
+  border: 3px solid blue;
+}
